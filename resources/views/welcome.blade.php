@@ -55,8 +55,7 @@
         </style>
     </head>
     <body>
-       <livewire:contact-create></livewire:contact-create>
-
-       @livewireScripts
+       @livewire('contact-create')
     </body>
+    @livewireScripts
 </html>
