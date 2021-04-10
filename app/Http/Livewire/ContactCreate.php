@@ -14,7 +14,7 @@ class ContactCreate extends Component
         'name' => 'required',
         'email' => 'required',
         'phone' => 'required',
-    ]
+    ];
 
     public function create()
     {
